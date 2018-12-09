@@ -28,4 +28,7 @@ dependencies {
 	testRuntime("javax.xml.bind:jaxb-api:2.3.0")
 	testRuntime("org.glassfish:javax.el:3.0.1-b08")
 	testRuntime("org.javamoney:moneta:1.1")
+	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+	testRuntime group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
+
 }
